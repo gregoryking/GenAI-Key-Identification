@@ -1,0 +1,22 @@
+[
+    {
+        "tableName": "tableName1",
+        "primaryKey": [
+            "columnName1",
+            "columnName2"
+        ],
+        "foreignKeys": [
+            {
+                "foreignKeys": [
+                    "columnName3",
+                    "columnName4"
+                ],
+                "referenceTable": "tableName2",
+                "referenceColumns": [
+                    "columnName3",
+                    "columnName4"
+                ]
+            }
+        ]
+    }
+]
